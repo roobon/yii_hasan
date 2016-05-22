@@ -266,3 +266,69 @@ Stack trace:
 REQUEST_URI=/yii_hasan/www/index.php/users/create
 HTTP_REFERER=http://localhost/yii_hasan/www/index.php/users/create
 ---
+2016/05/22 06:53:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('brands/admin')
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii_hasan\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_hasan/www/index.php/brands/admin
+HTTP_REFERER=http://localhost/yii_hasan/www/index.php/brands/3
+---
+2016/05/22 06:53:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('brands/admin')
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii_hasan\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii_hasan/www/index.php/brands/admin
+HTTP_REFERER=http://localhost/yii_hasan/www/index.php/brands/3
+---
+2016/05/22 07:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "items".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('items')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_hasan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_hasan/www/index.php/items
+---
+2016/05/22 07:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "items".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('items')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_hasan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_hasan/www/items
+---
+2016/05/22 07:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "items".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('items')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_hasan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_hasan/www/items
+---
+2016/05/22 07:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "items".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('items')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_hasan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_hasan/www/items
+---
